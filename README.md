@@ -51,13 +51,13 @@
 	* Start the container, C1 *
 	$ lxc-start -n C1
 	$ lxc-attach -n C1
-	*Navigate inside /etc/lighttpd/lighttpd.conf *
+	* Navigate inside /etc/lighttpd/lighttpd.conf *
 	$ cd /etc/lighttpd
 	$ nano lighttpd.conf
 	* mod_fastcgi.conf is uncommented *
 	* The port to show the lighttpd webpage is changed to port 8080 *
 	
-	* Confure an index page *
+	* Configure an index page *
 	$ cd /var/www/localhost/htdocs	
 	$ nano index.php
 	* Add the following inside the index.php: *
