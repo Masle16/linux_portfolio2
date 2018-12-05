@@ -2,7 +2,7 @@
  Group Number: 27
  Group Name: Helloworld 
 
-# How to replicate solution:
+# How to replicate the solution:
 **1) First unpriveleged containers are started:**<br />
 
 	$ lxc-create -n C1 -t download -- -d alpine -r 3.4 -a armhf
@@ -98,7 +98,7 @@
 	* Serve the script *
 	$ socat -v -v tcp-listen:8080,fork,reuseaddr exec:/bin/rng.sh
 
-** 7) Verify static IP's **
+**7) Verify the assignment of static IP**
 
 	$ lxc-ls -f
 
