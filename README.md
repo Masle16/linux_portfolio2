@@ -99,6 +99,7 @@
 	$ socat -v -v tcp-listen:8080,fork,reuseaddr exec:/bin/rng.sh
 
 ** 7) Verify static IP's **
+
 	$ lxc-ls -f
 
 **8) Route a port on the Raspberry Pi to a container**
