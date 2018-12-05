@@ -3,7 +3,7 @@
  Group Name: Helloworld 
 
 # How to replicate solution:
-1) First unpriveleged containers are started:__
+1) First unpriveleged containers are started:<br />
 	$ lxc-create -n C1 -t download -- -d alpine -r 3.4 -a armhf__
 	$ lxc-create -n C2 -t download -- -d alpine -r 3.4 -a armhf__
 
