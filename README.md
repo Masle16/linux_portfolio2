@@ -44,8 +44,8 @@
 
 **5) Changes inside C1 is now performed:**<br />
 	*Start the container, C1*<br />
-	$ lxc-start -n C1<br />
 
+	$ lxc-start -n C1<br />
 	$ lxc-attach -n C1<br />
 	*Navigate inside /etc/lighttpd/lighttpd.conf *<br />
 	$ cd /etc/lighttpd<br />
