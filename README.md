@@ -102,8 +102,10 @@
 	$ lxc-ls -f
 
 **8) Route a port on the Raspberry Pi to a container**
+
 	$ iptables -t nat -A PREROUTING -i wlan0 -p tcp --dport 80 -j DNAT --to-destination 10.0.3.11:8080
 
 **9) Verify results**
+
 	Open a browser and navigate to:
 	<raspberrypi-ip>:80	->	10.126.53.171:80
