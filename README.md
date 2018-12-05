@@ -1,1 +1,7 @@
-# linux_portfolio2 Group 27 Hello world
+# Linux Portfolio 2
+# Group Number: 27
+# Group Name: Helloworld 
+
+How to replicate solution:
+
+
