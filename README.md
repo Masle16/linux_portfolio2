@@ -43,20 +43,20 @@
 
 
 **5) Changes inside C1 is now performed:**<br />
-	*Start the container, C1*<br />
 
-	$ lxc-start -n C1<br />
-	$ lxc-attach -n C1<br />
-	*Navigate inside /etc/lighttpd/lighttpd.conf *<br />
-	$ cd /etc/lighttpd<br />
-	$ nano lighttpd.conf<br />
-	* mod_fastcgi.conf is uncommented *<br />
-	* The port to show the lighttpd webpage is changed to port 8080 *<br />
-	* The lighttpd service is now started *<br />
-	$ rc-update add lighttpd default<br />
-	$ openrc<br />
-	* The port is now scanned, to verify that the webpage is outputted *<br />
-	$ exit<br />
-	$ nmap 10.0.3.11<br />
+	*Start the container, C1*
+	$ lxc-start -n C1
+	$ lxc-attach -n C1
+	*Navigate inside /etc/lighttpd/lighttpd.conf *
+	$ cd /etc/lighttpd
+	$ nano lighttpd.conf
+	* mod_fastcgi.conf is uncommented *
+	* The port to show the lighttpd webpage is changed to port 8080 *
+	* The lighttpd service is now started *
+	$ rc-update add lighttpd default
+	$ openrc
+	* The port is now scanned, to verify that the webpage is outputted *
+	$ exit
+	$ nmap 10.0.3.11
 	
 
