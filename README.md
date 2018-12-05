@@ -86,6 +86,7 @@
 	$ nmap 10.0.3.11
 
 **6) Changes inside C2 is now performed:**<br />
+
 	* Install the randomness service *
 	$ lxc-start -n C2
 	$ lxc-attach -n C2
